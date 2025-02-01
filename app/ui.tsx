@@ -12,7 +12,7 @@ export default function UI() {
       <Logo />
       <SearchComponent setSerachInput={setSearchInput} searchInput={searchInput} />
       <FileDragDropZone />
-      <DropboxImageList />
+      <DropboxImageList searchInput={searchInput} />
     </main>
   );
 }
